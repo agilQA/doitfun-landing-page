@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DoItFun - Jasa Pembuatan Website Premium & Cinematic 3D</title>
+  <meta name="description" content="Jasa pembuatan website premium dengan visual interaktif 3D, sentuhan glassmorphism, dan estetika cinematic Jepang ala Apple & 21st.dev." />
+  
+  <!-- Typography & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;800&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
+  <!-- Spline 3D Viewer Runtime -->
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.0/build/spline-viewer.js"></script>
+</head>
+<body>
+  
+  <!-- Atmospheric Canvas (Golden Sparks & Sakura Drifts) -->
+  <canvas id="atmospheric-canvas"></canvas>
+
+  <!-- Interactive Neon Cursor Spotlight -->
+  <div class="cursor-glow" id="cursor-glow"></div>
+  
+  <!-- Ambient Plasma Glows -->
+  <div class="glow-orb orb-red"></div>
+  <div class="glow-orb orb-gold"></div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">⛩️</span> DoIt<span>Fun</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#hero" class="nav-item active">Realm</a>
+        <a href="#features" class="nav-item">Fitur Seni</a>
+        <a href="#portfolio" class="nav-item">Galeri Karya</a>
+        <a href="#pricing" class="nav-item">Investasi</a>
+        <a href="#contact" class="nav-item">Hubungi Sensei</a>
+      </nav>
+      <div class="nav-action">
+        <a href="#contact" class="btn-nav">Mulai Ritual Projek</a>
+      </div>
+      <button class="mobile-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge-glass"><span class="lantern">🏮</span> JASA WEBSITE MASTERCLASS</div>
+        <h1 class="hero-title">
+          Where Digital <span class="text-gradient">Mastery</span> Meets Estetika Jepang.
+        </h1>
+        <p class="hero-desc">
+          DoItFun merancang website premium berkinerja tinggi dengan visual interaktif 3D, pendaran neon glassmorphism mewah, dan kenyamanan user experience sehalus katana menebas sutra.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Klaim Slot Projek</a>
+          <a href="#portfolio" class="btn-secondary">Lihat Gulungan Karya</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Bebas Bug</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">Ultra Fast</span>
+            <span class="stat-label">Core Web Vitals</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">Elite</span>
+            <span class="stat-label">Desain Kelas Dunia</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-visual">
+        <!-- Glowing Oriental Hexagon Screen -->
+        <div class="oriental-screen">
+          <div class="hexagon-frame">
+            <div class="sakura-branch"></div>
+          </div>
+        </div>
+
+        <!-- Floating Interactive Spline 3D -->
+        <div class="spline-container tilt-element">
+          <spline-viewer url="https://prod.spline.design/JjT-mR292uA9Dsk7/scene.splinecode"></spline-viewer>
+        </div>
+        
+        <!-- Absolute Floating Glassmorphic Cards -->
+        <div class="floating-glass-card card-top tilt-element">
+          <div class="icon-circle red">⚔️</div>
+          <div>
+            <h4>Master Precision</h4>
+            <p>1px Pixel-Perfect Coding</p>
+          </div>
+        </div>
+        <div class="floating-glass-card card-bottom tilt-element">
+          <div class="icon-circle gold">🌸</div>
+          <div>
+            <h4>Cherry Blossom Speed</h4>
+            <p>Optimization Under 1.0s</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bento Grid Features Section -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="badge-glass">PILAR KEUNGGULAN</div>
+        <h2 class="section-title">Website yang Menghipnotis Pengunjung</h2>
+        <p class="section-desc">Kami tidak sekadar membuat kode. Kami menenun karya seni digital yang memicu konversi bisnis Anda.</p>
+      </div>
+
+      <div class="bento-grid">
+        <!-- Bento Card 1: Katana Speed -->
+        <div class="bento-card col-2 tilt-element">
+          <div class="card-glow"></div>
+          <div class="bento-icon">⚡</div>
+          <h3>Kecepatan Tebasan Katana</h3>
+          <p>Website super cepat dengan optimasi caching, kompresi gambar generasi terbaru, dan jaringan CDN elit. Menghadirkan waktu muat instan tanpa kompromi.</p>
+        </div>
+
+        <!-- Bento Card 2: 3D Immersive -->
+        <div class="bento-card tilt-element">
+          <div class="card-glow"></div>
+          <div class="bento-icon">🔮</div>
+          <h3>Interaksi 3D & Spline</h3>
+          <p>Animasi transisi cair, model 3D interaktif, dan efek parallax yang memukau seperti StringTune.</p>
+        </div>
+
+        <!-- Bento Card 3: SEO Scroll -->
+        <div class="bento-card tilt-element">
+          <div class="card-glow"></div>
+          <div class="bento-icon">⛩️</div>
+          <h3>Gerbang SEO Google</h3>
+          <p>Arsitektur HTML semantic bersih agar mudah diindeks di peringkat teratas mesin pencari.</p>
+        </div>
+
+        <!-- Bento Card 4: Neon Glassmorphism -->
+        <div class="bento-card col-2 tilt-element">
+          <div class="card-glow"></div>
+          <div class="bento-icon">💎</div>
+          <h3>Glassmorphic Bergaya Apple</h3>
+          <p>Perpaduan estetika minimalis Apple dengan transparansi kaca buram, tepian berpendar neon lembut, and tipografi premium yang memberi citra mahal bagi brand Anda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-glass">GULUNGAN KARYA</div>
+        <h2 class="section-title">Portofolio Mahakarya Digital</h2>
+        <p class="section-desc">Eksplorasi karya-karya terpilih kami yang menyatukan kecanggihan teknologi dengan keindahan visual.</p>
+      </div>
+
+      <div class="portfolio-grid">
+        <!-- Project 1 -->
+        <div class="portfolio-item tilt-element">
+          <div class="portfolio-img-wrapper">
+            <img src="showcase1.png" alt="Dashboard Premium Design" />
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-tag">CYBER SAAS / DASHBOARD</span>
+            <h3>Synapse Neon Analytics</h3>
+            <p>Platform visualisasi data berskala besar dengan interaksi fluid, pendaran neon, dan glassmorphism premium.</p>
+            <a href="#" class="portfolio-link">Buka Gulungan Projek ↗</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-item tilt-element">
+          <div class="portfolio-img-wrapper">
+            <img src="showcase2.png" alt="Premium Mobile Landing Design" />
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-tag">FINTECH / APPLE STYLE</span>
+            <h3>OmniPay Imperial Banking</h3>
+            <p>Aplikasi web modern transaksi finansial mewah dengan transisi transparan ala UI Apple Store.</p>
+            <a href="#" class="portfolio-link">Buka Gulungan Projek ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Pricing / Calculator Section -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="badge-glass">RITUAL INVESTASI</div>
+        <h2 class="section-title">Kalkulator Harga Transparan</h2>
+        <p class="section-desc">Konfigurasikan website impian Anda dan lihat estimasi mahar investasi secara instan.</p>
+      </div>
+
+      <div class="calculator-grid">
+        <!-- Column 1: Configurator -->
+        <div class="calc-config-card">
+          <h3>Pilih Kelas Website</h3>
+          
+          <div class="config-group">
+            <label class="config-label">Tipe Realm Website</label>
+            <div class="radio-options">
+              <label class="radio-card active">
+                <input type="radio" name="web_type" value="landing" checked />
+                <span>Landing Page Shogun</span>
+                <span class="price-badge">Rp 1.5M+</span>
+              </label>
+              <label class="radio-card">
+                <input type="radio" name="web_type" value="company" />
+                <span>Company Profile Samurai</span>
+                <span class="price-badge">Rp 3.0M+</span>
+              </label>
+              <label class="radio-card">
+                <input type="radio" name="web_type" value="ecommerce" />
+                <span>E-Commerce Emperor</span>
+                <span class="price-badge">Rp 5.0M+</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="config-group">
+            <label class="config-label">Fitur Sakral Tambahan</label>
+            <div class="checkbox-options">
+              <label class="check-card">
+                <input type="checkbox" id="addon-seo" value="500000" />
+                <span class="checkmark"></span>
+                <span class="addon-name">Master SEO Optimization (+Rp 500k)</span>
+              </label>
+              <label class="check-card">
+                <input type="checkbox" id="addon-animation" value="1000000" />
+                <span class="checkmark"></span>
+                <span class="addon-name">Spline 3D & Parallax Animasi (+Rp 1.0M)</span>
+              </label>
+              <label class="check-card">
+                <input type="checkbox" id="addon-speed" value="750000" />
+                <span class="checkmark"></span>
+                <span class="addon-name">Tebasan Kilat Speed Boost (+Rp 750k)</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: Total Price Glass Display -->
+        <div class="calc-result-card tilt-element">
+          <div class="result-glow"></div>
+          <h4>Mahar Investasi</h4>
+          <div class="price-display">
+            <span class="currency">Rp</span>
+            <span class="total-price" id="calc-total">1.500.000</span>
+          </div>
+          
+          <ul class="benefit-list">
+            <li>✓ Domain Premium (.com/.id) Gratis 1 Tahun</li>
+            <li>✓ Sertifikat SSL Gratis (HTTPS aman)</li>
+            <li>✓ Desain Mobile-Friendly Responsif</li>
+            <li>✓ Integrasi Tombol WhatsApp Direct</li>
+            <li>✓ Support Teknis & Maintenance 3 Bulan</li>
+          </ul>
+
+          <a href="#contact" class="btn-primary w-full text-center" id="btn-order-now">Ritual Pemesanan Website</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <div class="badge-glass">KONTAK SENSEI</div>
+        <h2>Mari Memulai Ritual Kolaborasi</h2>
+        <p>Hubungi Sensei IT kami untuk merancang cetak biru platform digital Anda. Konsultasi gratis, tanpa biaya ritual awal.</p>
+        
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="icon">📍</span>
+            <div>
+              <h5>Kuil Digital</h5>
+              <p>Jakarta & Surabaya, Indonesia</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="icon">💬</span>
+            <div>
+              <h5>Sinyal Cepat</h5>
+              <p>+62 821-4293-1584</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="icon">✉️</span>
+            <div>
+              <h5>Surat Elektronik</h5>
+              <p>hello@doitfun.id</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrapper tilt-element">
+        <form class="glass-form" id="main-contact-form">
+          <h3>Konsultasi Bersama Sensei</h3>
+          <p>Tulis pesan Anda di bawah ini dan kami akan membalas secepat tebasan angin.</p>
+          
+          <div class="form-group">
+            <input type="text" id="form-name" required placeholder="Nama Anda" />
+          </div>
+
+          <div class="form-group">
+            <input type="email" id="form-email" required placeholder="Email Anda" />
+          </div>
+
+          <div class="form-group">
+            <input type="tel" id="form-phone" required placeholder="Nomor WhatsApp" />
+          </div>
+
+          <div class="form-group">
+            <textarea id="form-message" required placeholder="Ceritakan konsep website impian Anda kepada Sensei..." rows="4"></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary w-full">Kirim Pesan ke Kuil ↗</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive "Master Old" Guided Tour Walkthrough (TikTok StringTune Feature) -->
+  <div class="walkthrough-widget" id="walkthrough-widget">
+    <div class="mentor-avatar">
+      <div class="avatar-ring"></div>
+      <span class="avatar-emoji">⛩️</span>
+    </div>
+    <div class="dialogue-bubble">
+      <div class="dialogue-header">
+        <span class="mentor-name">Sensei DoItFun</span>
+        <span class="dialogue-status">Active</span>
+      </div>
+      <p class="dialogue-text" id="dialogue-text">Konnichiwa, Wanderer! 🌸 Selamat datang di kuil web DoItFun. Mari saya tunjukkan website dengan estetika termewah sejagat digital.</p>
+      <div class="dialogue-controls">
+        <button class="btn-skip" id="btn-skip">Lewati ✖</button>
+        <button class="btn-next" id="btn-next">Lanjut ➔</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 DoItFun Digital. Hak Cipta Dilindungi. Desain Elit & Berkelas ala Jepang & Apple.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GSAP Animations & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

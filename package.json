@@ -1,0 +1,14 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Apple‑style glassmorphism landing page for web development services",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
